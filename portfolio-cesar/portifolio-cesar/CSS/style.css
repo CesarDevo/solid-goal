@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: inter;
+}
+
+header {
+    height: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+main {
+    height: 100%; /* Mudar para height: 100%; dps */
+}
+
+
+footer {
+    padding: 30px;
+    height: 50vh;
+    background: lightskyblue; /* Mudar a cor de fundo dps */
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+nav {
+    border-bottom: 1px solid black;
+    height:25vh;
+}
+
+article {
+    margin: 15px;
+    padding: 15px;
+}   
+
+#sobreMim {
+    border: 1px solid;
+    width: 50%;
+    line-height: 2;
+    /* float: left; */
+    margin: 50px;
+    padding: 20px;
+}
+
+p {
+    padding: 15px;
+    text-align: justify;
+}
+
+ul {
+    padding-left: 40px;
+    line-height: 200%;
+}
