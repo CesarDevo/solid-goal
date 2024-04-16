@@ -19,31 +19,36 @@ h1 {
 }
 
 main {
-    height: 100%; /* Mudar para height: 100%; dps */
+    height: 100%;
+    /* Mudar para height: 100%; dps */
 }
 
 
 footer {
     padding: 30px;
     height: 50vh;
-    background: lightskyblue; /* Mudar a cor de fundo dps */
+    background: lightskyblue;
+    /* Mudar a cor de fundo dps */
 }
 
-a {
-    text-decoration: none;
-    padding: 15px;
-
-}
 
 nav {
     border-bottom: 1px solid black;
-    height:25vh;
+    height: 15vh;
+}
+
+nav>a {
+    text-decoration: none;
+    padding-left: 40px;
+    height: 15vh;
+    line-height: 15vh;
+    display: inline-block;
 }
 
 article {
     margin: 15px;
     padding: 15px;
-}   
+}
 
 #sobreMim {
     border: 1px solid;
@@ -53,6 +58,18 @@ article {
     margin: 50px;
     padding: 20px;
 }
+
+#pontos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#ponto1, #ponto2 {
+    border: 1px solid;
+    margin: 100px;
+}
+
 
 p {
     padding: 15px;
