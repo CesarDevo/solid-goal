@@ -6,16 +6,23 @@
     box-sizing: border-box;
     font-size: 24px;
     font-family: inter;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+:root {
+  --fonte-corpo: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
     height: 100%;
     text-align: center;
+    font-family: var(--fonte-corpo);
 }
 
 h1 {
     font-size: 2rem;
     margin-top: 50px;
+    font-family: var(--fonte-corpo);
 }
 
 main {
@@ -43,6 +50,7 @@ nav>a {
     height: 15vh;
     line-height: 15vh;
     display: inline-block;
+    font-family: var(--fonte-corpo);
 }
 
 article {
