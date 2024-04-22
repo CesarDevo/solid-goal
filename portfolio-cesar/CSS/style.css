@@ -9,9 +9,15 @@
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
-:root {
-  --fonte-corpo: Verdana, Geneva, Tahoma, sans-serif;
+html, body {
+    height: 100%;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 
 header {
     height: 100%;
@@ -19,14 +25,13 @@ header {
     font-family: var(--fonte-corpo);
 }
 
-h1 {
-    font-size: 2rem;
-    margin-top: 50px;
-    font-family: var(--fonte-corpo);
-}
 
 main {
     height: 100%;
+    /* min-height: calc(100vh - 100px);
+    padding-bottom: 100px;
+    flex-grow: 1;
+    padding-bottom: 100px; */
     /* Mudar para height: 100%; dps */
 }
 
@@ -35,9 +40,11 @@ footer {
     padding: 30px;
     height: 50vh;
     background: lightskyblue;
+    /* position: sticky;
+    bottom: 0;
+    width: 100%; */
     /* Mudar a cor de fundo dps */
 }
-
 
 nav {
     border-bottom: 1px solid black;
@@ -56,35 +63,4 @@ nav>a {
 article {
     margin: 15px;
     padding: 15px;
-}
-
-#sobreMim {
-    border: 1px solid;
-    width: 50%;
-    line-height: 2;
-    /* float: left; */
-    margin: 50px;
-    padding: 20px;
-}
-
-#pontos {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-#ponto1, #ponto2 {
-    border: 1px solid;
-    margin: 100px;
-}
-
-
-p {
-    padding: 15px;
-    text-align: justify;
-}
-
-ul {
-    padding-left: 40px;
-    line-height: 200%;
 }

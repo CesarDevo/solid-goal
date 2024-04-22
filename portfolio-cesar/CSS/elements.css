@@ -1,0 +1,40 @@
+:root {
+    --fonte-corpo: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+h1 {
+    font-size: 2rem;
+    margin-top: 50px;
+    font-family: var(--fonte-corpo);
+}
+
+#sobreMim {
+    border: 1px solid;
+    width: 50%;
+    line-height: 2;
+    /* float: left; */
+    margin: 50px;
+    padding: 20px;
+}
+
+#pontos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#ponto1, #ponto2 {
+    border: 1px solid;
+    margin: 100px;
+}
+
+
+p {
+    padding: 15px;
+    text-align: justify;
+}
+
+ul {
+    padding-left: 40px;
+    line-height: 200%;
+}
